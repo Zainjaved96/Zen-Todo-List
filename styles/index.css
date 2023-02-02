@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+.todo-container {
+   padding: 2rem;
+  
+}
+
+.logo-name {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card {   
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.form-check-input {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.form-check {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.todo-item {
+    /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
+    background-color: #182848;
+    padding: 0.7rem 1rem; 
+    margin-bottom: 0.3rem;
+    width: 90%;
+    color: aliceblue;
+    display: flex;
+    gap: 0.8rem;
+    font-size: 1.2rem;
+    border:1px solid aliceblue;
+    border-radius: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.quote {
+    margin-top: 1rem;
+}
+
+.add-btn {
+    background: linear-gradient(90deg, #40c925 0%, #45c04f 100%);
+    color: rgb(61, 51, 51);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.add-btn:hover {
+    color: rgb(48, 43, 43);
+}
+
+.del-btn {
+    background: linear-gradient(90deg, #ff004c 0%, #961848 100%);
+}
+
+.blockquote {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(35, 70, 100);
+}
+
+.buttons {
+    gap: 0.8rem;
+}
+
+.todo-item-text {
+    margin: 0 !important;
+    padding: 0  !important;
+}
+
+.todo-color {
+   
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.todo-list {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-trash {
+    color: #e9074b;
+}
+
+.item-trash:hover {
+    cursor:pointer;
+}
